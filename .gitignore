@@ -1,29 +1,19 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Editors temp files                                                                                                                                                           
+*.swp
+*~
 
-# Precompiled Headers
-*.gch
-*.pch
+# ROOT-related files
+*.root
+*_cc.d
+*_cc.so
+*_C.d
+*_C.so
+*\#*
+.\#*
+AutoDict_*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Other temp files
+*.txt
+*.log
+*.png
+*.pdf
