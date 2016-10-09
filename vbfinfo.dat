@@ -1,0 +1,13 @@
+#sampletype  filetype xs(pb) br GenNum
+vbf VBFHToGG_M125_13TeV_amcatnlo_pythia8 3.782 0.00227 1199200
+ggf GluGluHToGG_M125_13TeV_amcatnloFXFX_pythia8 48.580 0.00227 1022140
+gj_1 GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCUETP8M1_13TeV_Pythia8 3216.0 1 38336063
+gj_2 GJet_Pt-20to40_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8 220.0 1 24616470
+gj_3 GJet_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8 850.8 1 70413740
+#bkg DiPhotonJets_MGG-80toInf_13TeV_amcatnloFXFX_pythia8 135.1 1 3696967
+dipho_1 DiPhotonJetsBox_MGG-80toInf_13TeV-Sherpa 84.4 1 58432739
+qcd_1 QCD_Pt-30to40_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8 22110.0 1 17976699
+qcd_2 QCD_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8 113400.0 1 20219661
+qcd_3 QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCUETP8M1_13TeV_Pythia8 260500.0 1 35913224
+data Run2016BCD_ICHEP_PromptReco_v2 1 1 1
+
