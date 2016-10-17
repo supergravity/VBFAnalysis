@@ -48,19 +48,19 @@ int main(){
         //Cross Section 
 	  double VBF_Xsec  = 3.782  *1000 *BR;
 	  double GGF_Xsec  = 48.58  *1000 *BR;
-	  double GJ1_Xsec  = 3216.  *1000 ;
+	  double GJ1_Xsec  = 3216.  *0.   ;//0.0 is just that I don't want to see this component.
 	  double GJ2_Xsec  = 220.   *1000 ;
 	  double GJ3_Xsec  = 850.8  *1000 ;
 	  double GG_Xsec   = 84.4   *1000 ;
-	  double QCD1_Xsec = 22110. *0.001;//0.001 is just that I don't want to see this component.
-	  double QCD2_Xsec = 113400.*0.001;
-	  double QCD3_Xsec = 260500.*0.001;
+	  double QCD1_Xsec = 22110. *0.0  ;
+	  double QCD2_Xsec = 113400.*0.0  ;
+	  double QCD3_Xsec = 260500.*0.0  ;
         //Gen Number
 	  double VBF_genN  = 1199200;
 	  double GGF_genN  = 1022140;
 	  double GJ1_genN  = 38336063;
 	  double GJ2_genN  = 24616470;
-	  double GJ3_genN  = 70413740;
+	  double GJ3_genN  = 69679664;
 	  double GG_genN   = 58432739;
 	  double QCD1_genN = 17976699;
 	  double QCD2_genN = 20219661;

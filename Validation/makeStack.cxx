@@ -134,16 +134,18 @@ int main(){
               if(i==0){
 		 double VBFpercent = (hVBF[i]->Integral()/(hVBF[i]->Integral()+hGGF[i]->Integral()))*100;
 		 double GGFpercent = 100 - VBFpercent; 
-		 cout << "------------------------------------------------------------------------------\n"
-		      << "VBF = " << hVBF[i]->Integral() << "(" << VBFpercent << ")" << "\n"
-		      << "GGF = " << hGGF[i]->Integral() << "(" << GGFpercent << ")" << "\n"
-		      << "------------------------------------------------------------------------------"
-		      <<endl;
                  int minbin = hCont[i]->FindBin(120.);
                  int maxbin = hCont[i]->FindBin(130.);
                  double NCont = hCont[i]->Integral() - hCont[i]->Integral(minbin,maxbin);
                  double Ndata = hdata[i]->Integral() - hdata[i]->Integral(minbin,maxbin);
                  scale_factor = Ndata/NCont;
+		 cout << "------------------------------------------------------------------------------\n"
+		      << "VBF = " << hVBF[i]->Integral() << "(" << VBFpercent << ")" << "\n"
+		      << "GGF = " << hGGF[i]->Integral() << "(" << GGFpercent << ")" << "\n"
+		      << "Continuum = " << hCont[i]->Integral() * scale_factor 
+		      << "(" << "scale factor = " << scale_factor <<")\n"
+		      << "------------------------------------------------------------------------------"
+		      << endl;
               }
 
               hGJet[i] ->Scale(scale_factor);
